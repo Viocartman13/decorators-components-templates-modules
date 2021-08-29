@@ -1,15 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-my-custom-component-second',
   templateUrl: './my-custom-component-second.component.html',
 })
-export class MyCustomComponentSecondComponent implements OnInit {
+export class MyCustomComponentSecondComponent {
 
-  constructor() {
-  }
-
-  ngOnInit(): void {
-  }
 
 }
